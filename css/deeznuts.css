@@ -1,0 +1,86 @@
+/* CSS these nuts you fucker */
+
+*{
+    box-sizing: border-box;
+}
+.selectors input{
+  width: 27px;
+}
+
+.selectors-box{
+    max-width: 400px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.calcline{
+    /* border: 1px solid greenyellow; */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.selectors{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+}
+
+body{
+    background-color: darkgreen;
+    width: 100%;
+    margin: auto;
+}
+
+
+.header {
+    min-width: 100%;
+    max-width: auto;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 100px;
+    border-bottom: 5px solid black;
+  }
+
+
+.flowername1{
+    text-align: center;
+}
+
+.buttonass{
+    margin-left: 32px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 15px 32px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+
+    }
+
+    .buttonass:hover {background-color: #3e8e41}
+    
+    .buttonass:active {
+        background-color: #244d25;
+        transform: translateY(4px);
+      }
+
+
+    /* find a way to use grid to CENTER THIS FUCKING BUTTON GODDAMIT*/
+.calculate{
+    margin:auto;
+    width: 200px;
+}
+
+.instructions{
+    margin:auto;
+    width: 290px;
+    color: rgb(204, 204, 6);
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
