@@ -25,32 +25,32 @@
         <div class = "selectors">
 
             <div class="calcline"> 
-                $ <input type="input-area" class = "userInput" id="G"><label class = "metric"> - G </label> 
+                $ <input value = "" step = "0.01" class = "userInput" id="G"><label class = "metric"> - G </label> 
             </div>
 
             <div class="calcline"> 
-                $ <input type="input-area" class = "userInput" id="eighth"><label class = "metric"> - 1/8 </label> 
+                $ <input value = "" class = "userInput" id="eighth"><label class = "metric"> - 1/8 </label> 
             </div>
 
             <div class="calcline"> 
-                $ <input type="input-area" class = "userInput" id="quater"><label class = "metric"> - 1/4 </label> 
+                $ <input value = "" class = "userInput" id="quater"><label class = "metric"> - 1/4 </label> 
             </div>
 
             <div class="calcline"> 
-                $ <input type="input-area" class = "userInput" id="half"><label class = "metric"> - 1/2 </label> 
+                $ <input value = "" class = "userInput" id="half"><label class = "metric"> - 1/2 </label> 
             </div>
 
             <div class="calcline">
-                $ <input type="input-area" class = "userInput" id="oz"><label class = "metric"> - Oz </label>  
+                $ <input value = "" class = "userInput" id="oz"><label class = "metric"> - Oz </label>  
             </div>
 
 
             <div class="calcline"> 
-                $ <input type="input-area" class = "userInput" id="customMoney"><label> for - </label> 
-                <input type="input-area" class = "userInput" id="customMetric"> 
-                <select name="size-amount">
+                $ <input type=value = "" class = "userInput" id="customMoney"><label> for  </label> 
+                <input type=value = "" class = "userInput" id="customMetric"> 
+                <select name="size-amount" id="choose">
                     <option value="G">G</option>
-                    <option value="G">Oz</option>        
+                    <option value="Oz">Oz</option>        
                 </select>
             </div>
         
@@ -61,7 +61,8 @@
     <br>
 
     <div class = calculate>
-        <button class='buttonass'> Calculate </button>
+        <button class='calcbutton'> Calculate </button>
+        <button class='clearbutton'> Clear </button>
     </div>
 
 

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .selectors input{
-  width: 27px;
+  width: 60px;
 }
 
 .selectors-box{
@@ -50,8 +50,10 @@ body{
     text-align: center;
 }
 
-.buttonass{
-    margin-left: 32px;
+
+/* BUTTON SHIT */
+
+.calcbutton{
     background-color: #4CAF50; /* Green */
     color: white;
     padding: 15px 32px;
@@ -63,19 +65,45 @@ body{
 
     }
 
-    .buttonass:hover {background-color: #3e8e41}
+    .calcbutton:hover {background-color: #3e8e41}
     
-    .buttonass:active {
+    .calcbutton:active {
         background-color: #244d25;
+        transform: translateY(4px);
+      }
+.clearbutton{
+    width: 125px;
+    margin-left: 32px;
+    background-color: #d0d326; /* Green */
+    color: white;
+    padding: 15px 32px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+
+    }
+
+    .clearbutton:hover {background-color: #9fa823}
+    
+    .clearbutton:active {
+        background-color: #616313;
         transform: translateY(4px);
       }
 
 
+
     /* find a way to use grid to CENTER THIS FUCKING BUTTON GODDAMIT*/
 .calculate{
-    margin:auto;
-    width: 200px;
+    margin: auto;
+    width: 291.7px;
+    margin-top: -10px;
 }
+
+
+
+
 
 .instructions{
     margin:auto;
